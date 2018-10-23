@@ -12,7 +12,7 @@
 				},
 				{
 					"type": "entity",
-					"value": "target"
+					"value": "target-entity"
 				},
 				{
 					"type": "option",
@@ -55,7 +55,7 @@
 			"cycleMarkers": [
 				{
 					"type": "entity",
-					"value": "targets"
+					"value": "target-entities"
 				},
 				{
 					"type": "item",
@@ -136,7 +136,7 @@
 									"entity": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										}
 									]
 								}
@@ -172,7 +172,7 @@
 									"entity": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										}
 									]
 								}
@@ -202,7 +202,7 @@
 									"entity": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										}
 									]
 								}
@@ -260,7 +260,7 @@
 						"clear": [
 							{
 								"type": "entity",
-								"value": "targets"
+								"value": "target-entities"
 							},
 							{
 								"type": "end"
@@ -270,7 +270,7 @@
 				},
 				{
 					"type": "entity",
-					"value": "targets"
+					"value": "target-entities"
 				},
 				{
 					"type": "effect",
@@ -312,7 +312,7 @@
 						"query": [
 							{
 								"type": "entity",
-								"value": "player"
+								"value": "player-entity"
 							},
 							{
 								"type": "option",
@@ -329,7 +329,7 @@
 				},
 				{
 					"type": "entity",
-					"value": "players"
+					"value": "player-entities"
 				},
 				{
 					"type": "string",
@@ -402,7 +402,7 @@
 				},
 				{
 					"type": "player",
-					"value": "target",
+					"value": "player-entity",
 					"optional": true
 				}
 			]
@@ -507,7 +507,7 @@
 			"cycleMarkers": [
 				{
 					"type": "entity",
-					"value": "target"
+					"value": "target-entity"
 				},
 				{
 					"type": "item",
@@ -524,7 +524,7 @@
 			"cycleMarkers": [
 				{
 					"type": "entity",
-					"value": "vicitms"
+					"value": "target-entities"
 				}
 			]
 		},
@@ -619,7 +619,7 @@
 				},
 				{
 					"type": "entity",
-					"value": "target"
+					"value": "target-entity"
 				},
 				{
 					"type": "coord",
@@ -651,7 +651,7 @@
 				},
 				{
 					"type": "entity",
-					"value": "target"
+					"value": "target-entity"
 				},
 				{
 					"type": "recipe",
@@ -672,7 +672,7 @@
 						"entity": [
 							{
 								"type": "entity",
-								"value": "targets"
+								"value": "target-entities"
 							}
 						],
 						"block": [
@@ -991,7 +991,7 @@
 									"add": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										},
 										{
 											"type": "string",
@@ -1008,7 +1008,7 @@
 									"enable": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										},
 										{
 											"type": "string",
@@ -1021,7 +1021,7 @@
 									"list": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										},
 										{
 											"type": "end"
@@ -1030,11 +1030,11 @@
 									"operation": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										},
 										{
 											"type": "string",
-											"value": "target objective"
+											"value": "target-objective"
 										},
 										{
 											"type": "option",
@@ -1052,11 +1052,11 @@
 										},
 										{
 											"type": "entity",
-											"value": "source"
+											"value": "source-entity"
 										},
 										{
 											"type": "string",
-											"value": "source objective"
+											"value": "source-objective"
 										},
 										{
 											"type": "end"
@@ -1065,7 +1065,7 @@
 									"remove": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										},
 										{
 											"type": "string",
@@ -1082,7 +1082,7 @@
 									"reset": [
 										{
 											"type": "entity",
-											"value": "targets"
+											"value": "target-entities"
 										},
 										{
 											"type": "string",
@@ -1095,7 +1095,7 @@
 									"set": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										},
 										{
 											"type": "string",
@@ -1112,7 +1112,7 @@
 									"test": [
 										{
 											"type": "entity",
-											"value": "target"
+											"value": "target-entity"
 										},
 										{
 											"type": "string",
@@ -1176,7 +1176,7 @@
 			"cycleMarkers": [
 				{
 					"type": "entity",
-					"value": "target",
+					"value": "target-entity",
 					"optional": true
 				},
 				{
@@ -1207,7 +1207,7 @@
 				},
 				{
 					"type": "entity",
-					"value": "victims"
+					"value": "target-entities"
 				}
 			]
 		},
@@ -1216,7 +1216,7 @@
 			"cycleMarkers": [
 				{
 					"type": "entity",
-					"value": "target"
+					"value": "target-entity"
 				},
 				{
 					"type": "option",
@@ -1261,7 +1261,7 @@
 			"cycleMarkers": [
 				{
 					"type": "entity",
-					"value": "targets"
+					"value": "target-entities"
 				},
 				{
 					"type": "greedy",
@@ -1274,7 +1274,7 @@
 			"cycleMarkers": [
 				{
 					"type": "entity",
-					"value": "targets"
+					"value": "target-entities"
 				},
 				{
 					"type": "string",
@@ -1333,7 +1333,7 @@
 			"cycleMarkers": [
 				{
 					"type": "entity",
-					"value": "target"
+					"value": "target-entity"
 				},
 				{
 					"type": "option",
@@ -1537,7 +1537,7 @@
 				"entity": [
 					{
 						"type": "entity",
-						"value": "targets"
+						"value": "target-entities"
 					}
 				],
 				"block": [
@@ -1574,11 +1574,11 @@
 				"score": [
 					{
 						"type": "entity",
-						"value": "target"
+						"value": "target-entity"
 					},
 					{
 						"type": "string",
-						"value": "targetObjective"
+						"value": "target-objective"
 					},
 					{
 						"type": "option",
@@ -1592,11 +1592,11 @@
 					},
 					{
 						"type": "entity",
-						"value": "source"
+						"value": "source-entity"
 					},
 					{
 						"type": "string",
-						"value": "sourceObjective"
+						"value": "source-objective"
 					}
 				]
 			}
@@ -1634,7 +1634,7 @@
 				"as": [
 					{
 						"type": "entity",
-						"value": "targets"
+						"value": "target-entities"
 					},
 					{
 						"include": "execute"
@@ -1643,7 +1643,7 @@
 				"at": [
 					{
 						"type": "entity",
-						"value": "targets"
+						"value": "target-entities"
 					},
 					{
 						"include": "execute"
@@ -1699,13 +1699,13 @@
 							"entity": [
 								{
 									"type": "entity",
-									"value": "target"
+									"value": "target-entity"
 								}
 							],
 							"score": [
 								{
 									"type": "entity",
-									"value": "target"
+									"value": "target-entity"
 								},
 								{
 									"type": "string",
