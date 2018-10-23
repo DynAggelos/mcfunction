@@ -14,7 +14,7 @@
 			"end": "\\]",
 			"patterns": [
 				{
-					"match": "([\\w_]+)(?==)",
+					"match": "([\\w_]+)(?= ?=)",
 					"captures": {
 						"1": {
 							"name": "name"
